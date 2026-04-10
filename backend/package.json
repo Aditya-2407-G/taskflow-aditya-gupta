@@ -11,7 +11,6 @@
     "migrate:rollback": "knex migrate:rollback --knexfile src/db/knexfile.ts",
     "migrate:make": "knex migrate:make --knexfile src/db/knexfile.ts",
     "seed": "knex seed:run --knexfile src/db/knexfile.ts",
-    "test": "jest --forceExit --detectOpenHandles",
     "lint": "eslint src/ --ext .ts"
   },
   "dependencies": {
@@ -34,17 +33,12 @@
     "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
-    "@types/jest": "^29.5.13",
     "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.7.5",
     "@types/pg": "^8.11.10",
-    "@types/supertest": "^6.0.2",
     "@types/uuid": "^10.0.0",
-    "jest": "^29.7.0",
     "nodemon": "^3.1.7",
     "pino-pretty": "^11.2.2",
-    "supertest": "^7.0.0",
-    "ts-jest": "^29.2.5",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3"
   }
